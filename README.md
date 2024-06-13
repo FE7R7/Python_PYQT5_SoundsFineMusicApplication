@@ -116,3 +116,20 @@ Another point I would like to highlight is that although inheritance allows the 
 
 Since I mentioned the override of inheritance methods, I take the opportunity to highlight how functional it is to be able to standardise method signatures that can have different and appropriate behaviours for each situation and at the same time establish a relationship, connection between classes, thus favouring abstraction logic, organisation and construction of the code and software of the system as a whole according to the needs and different requirements of the real world.
 
+
+-------------------------------------------------//-------------------------------------------------
+
+Description of the files involved in the project:
+
+Assignment_StartWindow.py: Python file responsible for initializing the Main Window such as its geometry.
+
+Assignment_Classes.py: In this python file we find all the classes involved in the project as well as the relationships between each one.
+
+Assignment_PyQT5.py: It is a file converted from .ui to .py, where we bring all the configurations made for the Graphical User Interface using PyQT5 library (QTDesigner as an exeternal tool for the PyCharm IDE).
+
+Assignment_PyQT5.ui: File that we can use to add or remove graphical functionalities from the application and then convert it back to a .py file and can thus be integrated into the project that is made up of the python files mentioned above.
+
+Ps: To perform the conversion mentioned above, we use an external tool called UI Converter. (PyCharm IDE)
+
+Thank You for your time...
+
