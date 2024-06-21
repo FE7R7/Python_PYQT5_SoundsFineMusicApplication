@@ -133,3 +133,12 @@ Ps: To perform the conversion mentioned above, we use an external tool called UI
 
 Thank You for your time...
 
+
+<img width="392" alt="12" src="https://github.com/FE7R7/PYTHON_PYQT5_SoundsFineMusicApplication/assets/147453330/40f5ef8b-1399-42f4-b1f0-81f5031bc861">
+
+
+
+
+
+
+
