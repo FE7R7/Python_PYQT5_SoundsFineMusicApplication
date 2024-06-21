@@ -1,4 +1,4 @@
-# PYTHON_PYQT5_SoundsFineMusicApplication
+# Python_PYQT5_SoundsFineMusicApplication
 
 Brief Description Of The Main Functionalities: 
 
