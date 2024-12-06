@@ -2,7 +2,7 @@
 
 Brief Description Of The Main Functionalities: 
 
-SoundsFine Music Application allows the user to interact and control a list of songs separated by genre, such as Jazz, Country, Rock, Pop. Choosing to buy ticket for a concert of a singer that pleases you is a feature among the others described below:
+SoundsFine Music Application allows the user to simulate interacyion and control of a song list that is classified by genre, such as Jazz, Country, Rock, Pop. Choosing to buy ticket for a concert of a singer that pleases you is a feature among the others described below:
 
 Play/Pause Song
 Increase/Decrease Sound Volume 
@@ -44,17 +44,12 @@ One of the main objectives of this paradigm is code reuse and to make this possi
 
 ------------------------//------------------------
 
-Description of the Object Oriented Design Features in Python: 
+Description of the Object Oriented Design Features: 
 
 
 Encapsulation:
 
 It is one of the main techniques that define object-oriented programming. This is one of the elements that adds security to the application, due to the fact that it makes some properties of the class private, and can only be accessed by instantiating the class and then call the getters and setters methods. With this layer of security, direct access to the class attributes and its functionalities are prevented.
-
-
-Encapsulation example of private variables of my project:
-
-![image](https://github.com/FE7R7/PYTHON_PYQT5_SoundsFineMusicApplication/assets/147453330/1862fef2-b581-4057-8d9b-13441c26bdf7)
 
 
 ------------------------//-----------------------
@@ -64,20 +59,11 @@ Inheritance:
 Specifically about optimisation of written code. We have the following scenario, the child class extends from the parent class, it means, it inherits characteristics and functionalities that will be reused thanks to this relationship between the classes, which ends up also contributing to the easier reading and maintenance of the code, which is more concise.
 
 
-Inheritance example of Jazz class that inherits from Singer of my project:
-
-![image](https://github.com/FE7R7/PYTHON_PYQT5_SoundsFineMusicApplication/assets/147453330/274e2ec8-af62-4dd3-a11d-3715c8ba4f66)
-
-
 ------------------------//-----------------------
 
 polymorphism:
 
 This is another essential point in object oriented programming paradigma. In nature, we see animals for example, or even human beings changing, adapting their actions according to need. People with the same name, but with different approaches to the same situation. So, it is from this idea that polymorphism in object orientation comes from. As we know, child objects inherit the characteristics and actions of their “parents”. However, in some cases, it is necessary that the actions for the same method or function are different. In other words, polymorphism consists of changing the internal body instructions code of a function inherited from a parent object.
-
-Polymorphism example of two functions that override the two functions in the Super class Singer of my project:
-
-![image](https://github.com/FE7R7/PYTHON_PYQT5_SoundsFineMusicApplication/assets/147453330/72ac0ad7-77a3-4a76-9e77-ab1866a00066)
 
 
 ------------------------//-----------------------
@@ -94,13 +80,6 @@ Aggregation: The object HAS another object, this means that a class A uses anoth
 
 
 Composition: The object belongs to another object, basically so that class A that has a class B implemented within it depends on this class B to perform.
-
-
-Aggregation example of Concert class being aggregated inside the Singer class of my project:
-
-
-![image](https://github.com/FE7R7/PYTHON_PYQT5_SoundsFineMusicApplication/assets/147453330/0a54f779-2030-4728-b853-41adf37f9848)
-
 
 
 ------------------------//-----------------------
@@ -129,7 +108,7 @@ Assignment_PyQT5.py: It is a file converted from .ui to .py, where we bring all 
 
 Assignment_PyQT5.ui: File that we can use to add or remove graphical functionalities from the application and then convert it back to a .py file and can thus be integrated into the project that is made up of the python files mentioned above.
 
-Ps: To perform the conversion mentioned above, we use an external tool called UI Converter. (PyCharm IDE)
+Ps: To perform the conversion mentioned above, it was used an external tool called UI Converter. (PyCharm IDE)
 
 Thank You for your time...
 
